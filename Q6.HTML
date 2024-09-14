@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Analyze the below code. Do you see any issue? If Yes, What is that Issue? </h1>
+    <script>
+
+    
+
+        const object1 = { 
+        a: 10, 
+        b: 20, 
+        c: function () { 
+        console.log(object1.a + object1.b); 
+        document.write( `<h1> ${object1.a + object1.b}</h1>`  ); 
+        },
+     }; 
+
+
+        const func = object1.c; 
+        func();
+
+
+            
+
+    </script>
+</body>
+</html>
